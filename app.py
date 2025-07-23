@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load model dan scaler
-model = joblib.load("model_knn_pkl")
-scaler = joblib.load("scaler_knn_pkl")
+model = joblib.load("model_knn_clean.pkl")
+scaler = joblib.load("scaler_knn_clean.pkl")
 
 # Judul aplikasi
 st.title("🍍 Klasifikasi Kematangan Nanas Berdasarkan Warna Kulit")
